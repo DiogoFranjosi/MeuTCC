@@ -1,0 +1,39 @@
+img{
+    width: 350px;
+}
+
+nav{
+    background-color: var(--cor3);
+    padding: 2px;
+    box-shadow: black 3px 2px 2px 2px;
+    font-size: 25px;
+    flex-direction: row;
+    text-align: center;
+    
+    
+
+
+}
+ 
+nav > a{
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+    border-radius: 3px;
+    padding: 10px 90px;
+    transition-duration: 0.3s;
+    margin: 0px 30px;
+    
+}
+ 
+nav > a:hover{
+    background-color: var(--cor2);
+    color:var(--cor3);
+    
+}
+
+h1{
+    font-size: 35px;
+    color: rgba(223, 28, 70, 0.959);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
